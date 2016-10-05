@@ -21,7 +21,7 @@ along with Home Surveillance with Node.js.  If not, see <http://www.gnu.org/lice
 #include "wificonf.h"
 
 // Remote site information
-const char[] hostname = "192.168.1.161";
+const char hostname[] = "192.168.1.161";
 const int port = 3000;
 
 WiFiClient client;
